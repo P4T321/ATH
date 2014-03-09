@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ATH</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_athobject">AddATHObject</string>
+    <string name="Titre">Titre</string>
+    <string name="NoTel">No Téléphone</string>
+    <string name="HeureMin">HeureMin</string>
+    <string name="HeureMax">HeureMax</string>
+    <color name="BleuPale">#33A7B2</color>
+    <string name="Temps">Temps</string>
+    <string name="Ajouter">Ajouter</string>
+    <string name="Entre">Entre</string>
+    <string name="Et">et</string>
+    <string name="Repeter">Répéter</string>
+    <string name="Jours">Jours</string>
+    <string name="Messages">Messages</string>
+    <string name="Dimanche">Dimanche</string>
+    <string name="Lundi">Lundi</string>
+    <string name="Mardi">Mardi</string>
+    <string name="Mercredi">Mercredi</string>
+    <string name="Jeudi">Jeudi</string>
+    <string name="Vendredi">Vendredi</string>
+    <string name="Samedi">Samedi</string>
+    <string-array name="JoursSemaine">
+        <item>@string/Dimanche</item>
+        <item>@string/Lundi</item>
+        <item>@string/Mardi</item>
+        <item>@string/Mercredi</item>
+        <item>@string/Jeudi</item>
+        <item>@string/Vendredi</item>
+        <item>@string/Samedi</item>
+    </string-array>
+    <string name="ok">OK</string>
+    <string name="annuler">Annuler</string>
+    <string name="Plus">Plus</string>
+    <string name="sms">Message texte</string>
+    <string name="Moin">Moin</string>
+
+</resources>

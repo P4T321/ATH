@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddATHObject" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Titre"
+            android:textSize="14sp"
+            android:textColor="@color/BleuPale" />
+
+        <EditText
+            android:id="@+id/editTextSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Titre"
+            android:layout_marginBottom="10dip"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NoTel"
+            android:textSize="14sp"
+            android:textColor="@color/BleuPale" />
+                
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/NoTel"
+            android:layout_marginBottom="10dip"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Temps"
+            android:textSize="14sp"
+            android:textColor="@color/BleuPale" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/heureMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/HeureMin"
+                android:inputType="time" />     
+
+            <EditText
+                android:id="@+id/heureMax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/HeureMax"
+                android:inputType="time" />
+
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Jours"
+            android:textSize="14sp"
+            android:textColor="@color/BleuPale" />
+        
+        <Button
+            android:id="@+id/boutonRepeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:layout_marginBottom="10dip"
+            android:text="@string/Repeter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Messages"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="@color/BleuPale"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical" >
+	            <ImageView
+	                android:id="@+id/imageViewAjouterSMS"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:contentDescription="@string/Plus"
+	                android:src="@drawable/ajoutermsg3" />
+			</RelativeLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+</LinearLayout>
